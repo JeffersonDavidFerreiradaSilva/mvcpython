@@ -16,4 +16,4 @@ class ModelAluno:
             cursor.execute(criandoAluno, valores)
             self.conexao.commit()
         finally:
-           self.connection.close()
+           self.conexao.close()
